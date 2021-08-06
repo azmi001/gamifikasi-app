@@ -1,114 +1,69 @@
-.tombol {
-    color: #ffffff;
-    background-color: #279b90;
-    border-radius: 50px;
-    font-family: Sarala;
-    font-size: 16px;
-    text-transform: uppercase;
+body {
+    background-image: url("/assets/img/BGDummy.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 870px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: relative;
+    
 }
 
 .copyright {
     color: #ffffff;
-    font-family: Sarala;
     font-size: 30px;
-    text-transform: uppercase;
     text-align: center;
-    margin-top: -32px;
+    margin-top: 0px;
+    position: fixed;
+    bottom:0;
+    width:100%;
 }
 
-.form-control {
-    border-radius: 50px;
+.welcome .container {
+    max-width: 42em;
+    padding-top: 15%;
 }
 
-.input-group-text {
-    border-radius: 50px;
-}
-
-.modal-title{
-    font-family: Sarala;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.navbar {
-    position: relative;
-    z-index: 1;
-}
-
-.navbar-brand, .nav-link {
-    color: white !important;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-}
-
-.navbar-brand {
-    font-family: Sarala;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-
-.nav-link {
-    text-transform: uppercase;
-    font-family: Sarala;
-    font-size: 16px;
-    margin-right: 16px;
-}
-
-.nav-link:hover::after {
-    content: '';
-    display: block;
-    border-bottom: 3px solid #279b90;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 5px;
-    margin-bottom: -8px;
-}
-
-.jumbotron {
-
-    background-image: url("/assets/img/background.jpg");
-    background-size: cover;
-    height: 640px;
-    margin-top: -75px;
-    text-align: center;
-    position: relative;
-}
-
-.jumbotron::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 80%;
-    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
-    position: absolute;
-    bottom: 0;
-}
-
-.jumbotron .display-4{
+.welcome .container p {
     color: #ffffff;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    font-family: Sarala;
-    font-size: 40px;
-    margin-top: 200px;
-    font-weight: 200;
 }
 
-.jumbotron .container{
-    z-index: 1;
-    position: relative;
-}
-
-.lead span {
-    font-weight: 1000;
-}
-
-.lead{
+.welcome .container h1 {
     color: #ffffff;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    font-family: 'Noto Serif KR';
+}
+
+hr {
+    border-top: 2px solid #ffffff;
+}
+
+.welcomeButton a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.welcomeButton {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #279b90;
+    border: 0px;
+    width: 200px;
+    height: 50px;
+}
+
+.container h1 {
+    font-size: 60px;
+}
+
+.container p {
     font-size: 20px;
-    font-weight: 200;
 }
 
-.bg-primary{
-    color: #279b90;
+.container span {
+    font-weight: bold;
 }
