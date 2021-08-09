@@ -21,6 +21,6 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::get('/coba', function () {
-    return view('coba');
+Route::get('/home', function () {
+    return view('home');
 });

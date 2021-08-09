@@ -1,16 +1,15 @@
-body {
+/* Menu Welcome */
+body .welcome {
     background-image: url("/assets/img/BGDummy.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 870px;
-    width: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
     position: relative;
-    
 }
 
 .copyright {
@@ -66,4 +65,199 @@ hr {
 
 .container span {
     font-weight: bold;
+}
+
+/* Menu Home */
+
+body .home {
+    background-image: url("/assets/img/home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 947px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.profile-foto {
+    background-color: rgba(128, 128, 128, 0.35);
+    width: 280px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.player-foto {
+    background-color: #fdee93;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #fec132;
+    border-width: 8px;
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+}
+
+.player-nama {
+    display: inline-block;
+    color: #6beefe;  
+    padding-left: 20px;
+    position: relative;
+    bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+hr .garis-nama{
+    border-top: 8px solid #ffffff;
+    border-radius: 5px;
+}
+
+.player-info {
+    background-color: #fdee93;
+    width: 395px;
+    height: 100px;
+    border-radius: 0px 0px 40px 40px;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    border-style: solid;
+    border-color: #fec132;
+    border-width: 8px;
+    top: -15px;
+}
+
+.home-button {
+    width: 150px;
+    height: 50px;
+    background-color: #279b90;
+    display: inline-block;
+    border: 0px;
+    border-radius: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.nama-home, .team-home {
+    display: inline-block;
+}
+
+.menu-tengah {
+    background-color: rgba(128, 128, 128, 0.35);
+    width: 135px;
+    height: 150px;
+    border-radius: 0px 25px 25px 0px;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 440px;
+}
+
+.icon-event {
+    background-color: #fdee93;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #fec132;
+    border-width: 6px;
+    padding-right: 20px;
+    position: absolute;
+}
+
+.text-event {
+    position: absolute;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    bottom: 5px;
+    left: 40px;
+}
+
+.menu-dummy {
+    background-color: rgba(128, 128, 128, 0.35);
+    width: 500px;
+    height: 150px;
+    border-radius: 25px 25px 0px 0px;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+
+.button-dummy2 {
+    background-color: #279b90;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #075e56;
+    border-width: 6px;
+    display: block;
+}
+
+.tesk-dummy {
+    position: absolute;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.button-dummy {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+
+.menu-quest {
+    background-color: rgba(128, 128, 128, 0.35);
+    width: 500px;
+    height: 150px;
+    border-radius: 25px 25px 0px 0px;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+.button-quest {
+    background-color: #279b90;
+    width: 440px;
+    height: 75px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+}
+
+.button-quest p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    top: 0px;
+    position: absolute;
+    left: 160px;
+    top: 10px;
 }

@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="\css\style.css">
     <title>Gamifikai | Welcome</title>
   </head>
-  <body>
+  <body class="welcome">
     <div class="welcome">
       <div class="container">
         <h1>Gamifikasi</h1>
@@ -32,12 +32,11 @@
         </div>
         <div>
           <button type="button" class="btn btn-primary welcomeButton">
-            <a href="#">Guest</a>
+            <a href="/home">Guest</a>
           </button>
         </div>
       </div>
     </div>
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
