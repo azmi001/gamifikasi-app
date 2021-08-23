@@ -24,3 +24,7 @@ Route::get('/dashboard', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/quest/levelmap', function () {
+    return view('/quest/levelmap');
+});
