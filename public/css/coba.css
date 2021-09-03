@@ -1,0 +1,12 @@
+.jumbotron .display-4{
+    text-align:center;
+    color:blue;
+}
+
+.jumbotron .lead{
+    text-align:center;
+}
+
+.card-group {
+    margin-top: -50px;
+}
